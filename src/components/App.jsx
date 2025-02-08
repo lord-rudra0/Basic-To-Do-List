@@ -18,7 +18,8 @@ function App() {
     setItem((prev) => {
       return [...prev, toList]
     }
-    )
+    );
+    setToList("")
   }
 
   return (
