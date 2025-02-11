@@ -39,7 +39,9 @@ function App() {
       <div>
         <ul>
 
-          {item.map((item) => <li>{item}</li>)}
+          {item.map((todoItem, index) => (
+            <ToDoList key={index} text={todoItem} />
+          ))
 
         </ul>
       </div>
