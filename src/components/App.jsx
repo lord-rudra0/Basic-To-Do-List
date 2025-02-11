@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ToDoList from "./ToDoList";
+import InputArea from "./InputArea";
 
 function App() {
   const [toList, setToList] = useState("")
